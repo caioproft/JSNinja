@@ -59,7 +59,7 @@
     */
   console.log('\n"O Centauro de Luvas" em caixa alta:');
   console.log(
-    text.replace(/O Centrauo de Luvas/g, function(frase) {
+    text.replace(/O Centrauo de Luvas/, function(frase) {
       return frase.toUpperCase();
     })
   );
