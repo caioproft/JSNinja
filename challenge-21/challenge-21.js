@@ -43,7 +43,5 @@ dado ao elemento HTML deve definir o que o elemento é ou o que ele faz.
     function resetTimer() {
         $timer.value = 0;
         stopTimer();
-
-
     }
 })(window, document);
