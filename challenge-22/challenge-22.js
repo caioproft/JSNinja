@@ -49,7 +49,7 @@
     function sum() {
         console.log(arguments);
         return Array.prototype.reduce.call(arguments, function (acumulated, actual) {
-            return +acumulated + +actual; // O unário '+' converte a entrada para número
+            return (+acumulated) + (+actual); // O unário '+' converte a entrada para número
         });
 
     }
